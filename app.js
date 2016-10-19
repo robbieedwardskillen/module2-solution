@@ -26,7 +26,7 @@ function ToBuyController(ShoppingListCheckOffService){
   to_buy.removeItem = function(itemName){
     ShoppingListCheckOffService.removeItem(itemName);
   }
-}
+} 
 AlreadyBoughtController.$inject = ['ShoppingListCheckOffService'];
 function AlreadyBoughtController(ShoppingListCheckOffService) {
   var bought = this;
